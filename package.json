@@ -1,0 +1,20 @@
+{
+  "name": "vintri-test",
+  "version": "1.0.0",
+  "description": "Code test for Senior Software Developer role at Vintri",
+  "main": "./app/app.js",
+  "scripts": {
+    "test": "node ./node_modules/jasmine-node/bin/jasmine-node spec"
+  },
+  "author": "Ronnie Jarrouj",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^4.2.4",
+    "express": "^4.16.3",
+    "isomorphic-fetch": "^2.2.1",
+    "jasmine-node": "^1.14.5",
+    "memory-cache": "^0.2.0",
+    "nosql": "^6.1.0",
+    "request": "^2.85.0"
+  }
+}
